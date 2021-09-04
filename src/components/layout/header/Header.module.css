@@ -1,0 +1,71 @@
+.header {
+  max-width: 100%;
+  background: var(--clr-blue-medium);
+  color: var(--clr-white);
+  height: 100px;
+}
+
+.container {
+  /* background-color: rgb(3, 119, 119); */
+  display: flex;
+  align-items: center;
+  height: 100px;
+  /* max-width: 1170px; */
+}
+
+.separator {
+  border-right: solid 1px white;
+  opacity: 30%;
+  height: 40px;
+  margin: 0 30px;
+}
+
+.navBar {
+  display: flex;
+  width: 865px;
+  height: auto;
+  justify-content: space-between;
+}
+
+.navBar__first {
+  display: flex;
+  gap: 50px;
+}
+
+/* navbar icons with counter styles */
+.navBarIcons {
+  display: flex;
+  gap: 20px;
+}
+
+.navBarIcons__icon {
+  height: 28px;
+  width: 36px;
+  display: block;
+}
+
+.counter {
+  position: relative;
+  border: solid 1px white;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 20px;
+  bottom: 5px;
+}
+.counter > p {
+  font-size: 12px;
+}
+
+.iconsSvg {
+  position: relative;
+  bottom: 10px;
+}
+
+.iconsSvg__last {
+  position: relative;
+  top: 5px;
+}

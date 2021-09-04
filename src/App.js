@@ -1,8 +1,14 @@
+import Footer from './components/layout/footer/Footer'
+import Header from './components/layout/header/Header'
+import Body from './components/layout/main/Body'
+
 function App() {
   return (
-    <div>
-      <h1>APP</h1>
-    </div>
+    <>
+      <Header />
+      <Body />
+      <Footer />
+    </>
   )
 }
 

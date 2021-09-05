@@ -1,0 +1,15 @@
+footer {
+  background: linear-gradient(180deg, #287194 0%, #0f435b 100%);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  margin: 80px 0;
+  color: var(--clr-white);
+}
+
+.socialIcons {
+  display: flex;
+  gap: 30px;
+}

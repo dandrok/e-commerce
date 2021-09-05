@@ -7,7 +7,7 @@ const Footer = () => {
     <footer>
       <Margin>
         <section className={styles.container}>
-          <div>
+          <div className={styles.singleDiv}>
             <h1>CONTACTS</h1>
             <ul>
               <li>
@@ -139,7 +139,7 @@ const Footer = () => {
               </a>
             </div>
           </div>
-          <div>
+          <div className={styles.singleDiv}>
             <h1>INFORMATION</h1>
             <ul>
               <li>About us</li>
@@ -148,7 +148,7 @@ const Footer = () => {
               <li>Delivery info</li>
             </ul>
           </div>
-          <div>
+          <div className={styles.singleDiv}>
             <h1>SHOP</h1>
             <ul>
               <li>Oxfort</li>
@@ -157,7 +157,7 @@ const Footer = () => {
               <li>Stock</li>
             </ul>
           </div>
-          <div>
+          <div className={styles.singleDiv}>
             <h1>ACCOUNT</h1>
             <ul>
               <li>My account</li>

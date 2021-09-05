@@ -5,11 +5,38 @@ footer {
 .container {
   display: flex;
   align-items: center;
-  margin: 80px 0;
+  padding: 80px 0;
+  color: var(--clr-white);
+  justify-content: space-between;
+}
+
+.singleDiv > * {
+  margin-bottom: 30px 0;
+}
+
+.singleDiv > h1 {
+  font-size: 1.25rem;
+  font-weight: normal;
+}
+
+.singleDiv > ul > * {
+  margin-top: 30px;
+}
+
+.singleDiv > ul > li {
+  font-size: 1rem;
+  font-weight: 100;
+}
+
+.singleDiv > ul > li > a > span {
+  /* padding-left: 15px; */
+  font-size: 1rem;
+  margin-left: 20px;
   color: var(--clr-white);
 }
 
 .socialIcons {
   display: flex;
   gap: 30px;
+  margin-top: 30px;
 }

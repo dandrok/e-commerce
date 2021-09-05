@@ -13,6 +13,12 @@
   font-size: 12px;
 }
 
+.breadcrumbs > li > a {
+  text-decoration: none;
+  color: var(--clr-black);
+  opacity: 40%;
+}
+
 .form {
   display: flex;
   width: 570px;

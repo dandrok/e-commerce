@@ -19,8 +19,6 @@ a,
 a:link,
 a:visited {
   text-decoration: none;
-  color: var(--clr-black);
-  opacity: 40%;
 }
 
 :root {

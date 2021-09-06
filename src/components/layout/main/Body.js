@@ -1,29 +1,18 @@
+import Margins from '../Margins/Margins'
+import Accessories from './Accessories'
 import styles from './Body.module.css'
+import Product from './Product'
+import Testimonials from './Testimonials'
 
 const Body = () => {
   return (
-    <div>
-      <p>body</p>
-      <p>body</p>
-      <p>body</p>
-      <p>body</p>
-      <p>body</p>
-      <p>body</p>
-      <p>body</p>
-      <p>body</p>
-      <p>body</p>
-      <p>body</p>
-      <p>body</p>
-      <p>body</p>
-      <p>body</p>
-      <p>body</p>
-      <p>body</p>
-      <p>body</p>
-      <p>body</p>
-      <p>body</p>
-      <p>body</p>
-      <p>body</p>
-    </div>
+    <main>
+      <Margins>
+        <Product />
+        <Testimonials />
+        <Accessories />
+      </Margins>
+    </main>
   )
 }
 

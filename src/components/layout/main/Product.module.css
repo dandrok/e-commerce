@@ -8,11 +8,11 @@
 .container {
   display: flex;
   gap: 30px;
-  max-width: 1200px;
+  /* max-width: 1200px; */
 }
 
 .product__Photos {
-  width: 555px;
+  /* max-width: 555px; */
   height: auto;
 }
 
@@ -85,7 +85,7 @@
 /* right site */
 
 .product__Details {
-  width: 555px;
+  /* max-width: 555px; */
   gap: 30px;
   display: flex;
   flex-direction: column;
@@ -159,7 +159,7 @@
 
 .btn__bgNone {
   background: var(--clr-white);
-  width: 250px;
+  width: 100%;
   padding: 11px 0 10px 0;
   border: solid 2px var(--clr-blue-medium);
   border-radius: 0;
@@ -168,7 +168,7 @@
 }
 .btn__bg {
   background: var(--clr-blue-medium);
-  width: 250px;
+  width: 100%;
   padding: 11px 0 10px 0;
   border: solid 2px var(--clr-blue-medium);
   border-radius: 0;

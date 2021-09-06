@@ -69,3 +69,51 @@
   position: relative;
   top: 5px;
 }
+
+/* @media screen and (max-width: 929px) {
+  .separator {
+    display: none;
+  }
+  .navBar {
+    display: none;
+  }
+
+  .separatorTablet {
+    border-right: solid 1px white;
+    opacity: 30%;
+    height: 40px;
+    margin: 0 30px;
+  }
+} */
+
+.separatorTabletttt {
+  border-right: solid 3px black;
+  opacity: 30%;
+  height: 40px;
+  margin: 0 30px;
+}
+
+.hamburgerMenu {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.hamburger {
+  width: 25px;
+  height: 3px;
+
+  background-color: var(--clr-white);
+}
+
+.container__tablet {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  justify-content: space-between;
+}
+
+.tabletMenu {
+  display: flex;
+  align-items: center;
+}

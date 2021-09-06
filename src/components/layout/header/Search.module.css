@@ -11,6 +11,7 @@
   display: flex;
   gap: 20px;
   font-size: 12px;
+  min-width: 235px;
 }
 
 .breadcrumbs > li > a {
@@ -21,7 +22,7 @@
 
 .form {
   display: flex;
-  width: 570px;
+  width: 100%;
 }
 
 /* .wrapper {

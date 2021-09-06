@@ -8,6 +8,7 @@ const Search = () => {
     alignItems: 'center',
     gap: '10px',
     fontSize: '12px',
+    minWidth: '130px',
   }
 
   return (

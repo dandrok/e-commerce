@@ -40,3 +40,48 @@ footer {
   gap: 30px;
   margin-top: 30px;
 }
+
+.socialIcons__mobile {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 30px 0;
+}
+
+.container__tabletMobile {
+  display: none;
+}
+
+.footer__tablet {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: -120px;
+  text-align: center;
+  color: var(--clr-white);
+}
+
+.footer__tablet > div > ul > li {
+  margin-top: 30px;
+}
+
+.line {
+  width: 100%;
+  background-color: var(--clr-white);
+  height: 1px;
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 640px) {
+  .singleDiv {
+    display: none;
+  }
+  .container__tabletMobile {
+    display: block;
+  }
+  .socialIcons {
+    margin-bottom: 30px;
+  }
+}

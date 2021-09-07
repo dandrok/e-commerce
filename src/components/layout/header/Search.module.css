@@ -52,3 +52,9 @@ form > button {
   background: none;
   border: none;
 }
+
+@media screen and (max-width: 650px) {
+  .container {
+    display: none !important;
+  }
+}

@@ -32,3 +32,7 @@ a:visited {
   --clr-blue-light: #76b0cc;
   --clr-purple: #883271;
 }
+
+button {
+  cursor: pointer;
+}

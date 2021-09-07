@@ -39,7 +39,7 @@ const Accessories = () => {
         </div>
       </div>
       <section className={styles.accessories__items}>
-        <div className={styles.item}>
+        <div className={styles.item__one}>
           <div className={styles.item__promoRight}>
             <div className={styles.item__promo}>
               <p>20%</p>
@@ -72,7 +72,8 @@ const Accessories = () => {
             </div>
           </div>
         </div>
-        <div className={styles.item}>
+
+        <div className={styles.item__two}>
           <div className={styles.item__promoRight}>
             <div className={styles.item__promo}>
               <p>20%</p>
@@ -105,7 +106,7 @@ const Accessories = () => {
             </div>
           </div>
         </div>
-        <div className={styles.item}>
+        <div className={styles.item__three}>
           <div className={styles.item__promoRight}>
             <div className={styles.item__promo}>
               <p>20%</p>

@@ -90,11 +90,52 @@ const Product = () => {
               <img src={oryginalBlue} alt={oryginalBlue} />
             </div>
           </div>
+          <section className={styles.tablet_show}>
+            <div className={styles.details__namePrice__tablet}>
+              <div
+                style={{
+                  display: 'flex',
+                  justifyContent: 'center',
+                  gap: '20px',
+                }}
+                className={styles.namePrice__tablet}
+              >
+                <p>Pear chair</p>
+                <p>599.00</p>
+              </div>
+              <div
+                style={{
+                  display: 'flex',
+                  justifyContent: 'center',
+                  gap: '15px',
+                }}
+              >
+                <p className={styles.namePrice__tablet}>
+                  <span style={{ opacity: '40%' }}>Added:</span>{' '}
+                  <spam>05.08.2021</spam>
+                </p>
+                <svg
+                  width='20'
+                  height='18'
+                  viewBox='0 0 20 18'
+                  fill='none'
+                  xmlns='http://www.w3.org/2000/svg'
+                  className={styles.svg__like}
+                >
+                  <path
+                    d='M18.5826 1.81264C17.6375 0.889854 16.3319 0.428658 14.665 0.428658C14.2038 0.428658 13.733 0.508638 13.2532 0.66852C12.7732 0.82852 12.3267 1.04438 11.9141 1.31595C11.501 1.58743 11.146 1.84239 10.8481 2.08041C10.5506 2.31851 10.2678 2.57155 10 2.83932C9.73207 2.57155 9.44932 2.31851 9.1518 2.08041C8.85408 1.84239 8.4989 1.58759 8.08587 1.31595C7.67291 1.04426 7.22645 0.828559 6.74657 0.66852C6.26673 0.508677 5.79603 0.428658 5.33476 0.428658C3.66803 0.428658 2.36231 0.889971 1.4174 1.81264C0.472493 2.73522 0 4.01491 0 5.65181C0 6.15034 0.087564 6.66384 0.26234 7.19192C0.437116 7.72019 0.636285 8.17041 0.859456 8.54236C1.08259 8.91427 1.33562 9.27711 1.61837 9.63054C1.90112 9.984 2.10775 10.2275 2.23781 10.3615C2.36798 10.4953 2.47032 10.5921 2.54471 10.6515L9.5089 17.3703C9.64286 17.5044 9.80654 17.5714 9.99996 17.5714C10.1934 17.5714 10.3572 17.5044 10.4911 17.3706L17.4442 10.674C19.1481 8.97033 20 7.29617 20 5.65181C20 4.01491 19.5274 2.73522 18.5826 1.81264Z'
+                    fill='#328863'
+                  />
+                </svg>
+              </div>
+            </div>
+          </section>
         </div>
         <div className={styles.product__Details}>
           <div className={styles.details__namePrice}>
             <div
               style={{ display: 'flex', justifyContent: 'center', gap: '20px' }}
+              className={styles.namePrice__tablet}
             >
               <p>Pear chair</p>
               <p>599.00</p>
@@ -102,13 +143,17 @@ const Product = () => {
             <div
               style={{ display: 'flex', justifyContent: 'center', gap: '15px' }}
             >
-              <p>Added: 05.08.2021</p>
+              <p className={styles.namePrice__tablet}>
+                <span style={{ opacity: '40%' }}>Added:</span>{' '}
+                <spam>05.08.2021</spam>
+              </p>
               <svg
                 width='20'
                 height='18'
                 viewBox='0 0 20 18'
                 fill='none'
                 xmlns='http://www.w3.org/2000/svg'
+                className={styles.svg__like}
               >
                 <path
                   d='M18.5826 1.81264C17.6375 0.889854 16.3319 0.428658 14.665 0.428658C14.2038 0.428658 13.733 0.508638 13.2532 0.66852C12.7732 0.82852 12.3267 1.04438 11.9141 1.31595C11.501 1.58743 11.146 1.84239 10.8481 2.08041C10.5506 2.31851 10.2678 2.57155 10 2.83932C9.73207 2.57155 9.44932 2.31851 9.1518 2.08041C8.85408 1.84239 8.4989 1.58759 8.08587 1.31595C7.67291 1.04426 7.22645 0.828559 6.74657 0.66852C6.26673 0.508677 5.79603 0.428658 5.33476 0.428658C3.66803 0.428658 2.36231 0.889971 1.4174 1.81264C0.472493 2.73522 0 4.01491 0 5.65181C0 6.15034 0.087564 6.66384 0.26234 7.19192C0.437116 7.72019 0.636285 8.17041 0.859456 8.54236C1.08259 8.91427 1.33562 9.27711 1.61837 9.63054C1.90112 9.984 2.10775 10.2275 2.23781 10.3615C2.36798 10.4953 2.47032 10.5921 2.54471 10.6515L9.5089 17.3703C9.64286 17.5044 9.80654 17.5714 9.99996 17.5714C10.1934 17.5714 10.3572 17.5044 10.4911 17.3706L17.4442 10.674C19.1481 8.97033 20 7.29617 20 5.65181C20 4.01491 19.5274 2.73522 18.5826 1.81264Z'
@@ -190,11 +235,19 @@ const Product = () => {
                 </label>
               </div>
             </div>
-            <div className={styles.buttons}>
-              <button className={styles.btn__bgNone}>ADD TO BASKET</button>
-              <button className={styles.btn__bg}>MAKE AN ORDER</button>
-            </div>
+            <section className={styles.desktop__show}>
+              <div className={styles.buttons}>
+                <button className={styles.btn__bgNone}>ADD TO BASKET</button>
+                <button className={styles.btn__bg}>MAKE AN ORDER</button>
+              </div>
+            </section>
           </div>
+        </div>
+      </section>
+      <section className={styles.tablet__btns}>
+        <div className={styles.buttons}>
+          <button className={styles.btn__bgNone}>ADD TO BASKET</button>
+          <button className={styles.btn__bg}>MAKE AN ORDER</button>
         </div>
       </section>
     </section>

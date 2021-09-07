@@ -1,14 +1,16 @@
-import Footer from './components/layout/footer/Footer'
-import Header from './components/layout/header/Header'
-import Body from './components/layout/main/Body'
+import Basket from './pages/Basket'
+import ProductPage from './pages/ProductPage'
+import { BrowserRouter, Route, Switch } from 'react-router-dom'
 
 function App() {
   return (
-    <>
-      <Header />
-      <Body />
-      <Footer />
-    </>
+    <BrowserRouter>
+      <Switch>
+        <Route exact path='/' component={ProductPage} />
+
+        <Route path='/basket' component={Basket} />
+      </Switch>
+    </BrowserRouter>
   )
 }
 

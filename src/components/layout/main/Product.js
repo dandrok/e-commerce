@@ -2,7 +2,7 @@ import styles from './Product.module.css'
 import oryginalBlue from '../../../images/oryginal_blue.png'
 import oryginalBlueRight from '../../../images/oyrginal_right.png'
 
-import Button from '../../ui/Button'
+import { Link } from 'react-router-dom'
 
 const Product = () => {
   return (
@@ -238,6 +238,7 @@ const Product = () => {
             <section className={styles.desktop__show}>
               <div className={styles.buttons}>
                 <button className={styles.btn__bgNone}>ADD TO BASKET</button>
+
                 <button className={styles.btn__bg}>MAKE AN ORDER</button>
               </div>
             </section>

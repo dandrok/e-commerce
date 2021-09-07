@@ -6,6 +6,8 @@ import Search from './Search'
 
 import useWindowDimensions from '../../../hooks/useWindowDimensions'
 
+import { Link } from 'react-router-dom'
+
 const Header = () => {
   const inlineStyle = { display: 'flex', gap: '5px', alignItems: 'center' }
   const svgStyle = { position: 'relative', top: '2px' }
@@ -20,7 +22,9 @@ const Header = () => {
         <Margins>
           {tablet ? (
             <div className={styles.container}>
-              <div>LOGO</div>
+              <div>
+                <Link to='/'>LOGO</Link>
+              </div>
               <div className={styles.separator} />
               <nav className={styles.navBar}>
                 <div>
@@ -84,7 +88,7 @@ const Header = () => {
                 </div>
 
                 {/* icon2 */}
-                <div className={styles.navBarIcons__icon}>
+                <Link to='/basket' className={styles.navBarIcons__icon}>
                   <div className={styles.counter}>
                     <p>3</p>
                   </div>
@@ -101,7 +105,7 @@ const Header = () => {
                       fill='white'
                     />
                   </svg>
-                </div>
+                </Link>
 
                 {/* icon3 */}
                 <div className={styles.navBarIcons__icon}>
